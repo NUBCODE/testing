@@ -32,9 +32,11 @@ body{
     color: #fffffe;
     padding: 5px;
     box-sizing: border-box;
+
 }
 .nav a:hover{
-    background-color: cadetblue;
+    background-color: #b8c1ec;
+    border-radius: 20%;
 }
 
 
@@ -50,10 +52,39 @@ body{
 .main .container h2{
     font-size: 40px;
 }
+
 .container span{
     color:#d4939d;
   
 }
+
+
+
+
+.contents{
+    height: 500px;
+    margin-top : 100px;
+}
+
+.section-title{
+    border-bottom: solid 2px #d4939d;
+    font-size: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+.items{
+    float: left;
+    margin-right: 40px;
+}
+.items img{
+    height: 200px;
+    width: 250px;
+}
+
+.contaxt-form{
+    padding-top: 100px;
+}
+
 .footer{
     height: 120px;
     padding: 40px;
